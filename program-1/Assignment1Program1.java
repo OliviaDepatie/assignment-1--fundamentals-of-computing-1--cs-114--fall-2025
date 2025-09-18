@@ -27,7 +27,8 @@ public class Assignment1Program1 {
     double fahrenheit = scan.nextDouble();
     double celsius = (fahrenheit - 32) * 5/9;
     celsius = Math.round(celsius * 10.0) / 10.0;
-
+    scan.close();
+    
     System.out.println("\nRandom number generated. Continuing...");
 
     Random random = new Random();
