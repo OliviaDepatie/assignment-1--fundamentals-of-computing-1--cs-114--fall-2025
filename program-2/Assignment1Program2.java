@@ -14,6 +14,7 @@ public class Assignment1Program2 {
     System.out.println("Now, enter a base 10 number in the range of 0 to " +calculatedBaseNumber+ " to convert:");
 
     int enteredBaseTenNumber = scan.nextInt();
+    scan.close();
     int num1 = enteredBaseTenNumber % enteredBase;
     int quotient1 = enteredBaseTenNumber / enteredBase;
     int num2 = quotient1 % enteredBase;
